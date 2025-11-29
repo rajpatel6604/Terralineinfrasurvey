@@ -20619,7 +20619,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 
 .bg_footer-1 {
-  background-image: url(../images/footer/01.html);
+  background: #141416;
 }
 
 .contact-area-footer-top {
@@ -20776,6 +20776,9 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   max-width: 150px;
   margin-bottom: 30px;
   display: block;
+  background: var(--color-white);
+  border-radius: 12px;
+  padding: 10px;
 }
 .footer-wrapper-left-one p.disc {
   color: #7C7C84;
