@@ -12490,8 +12490,15 @@ header.header-three .logo-area {
 }
 @media only screen and (max-width: 767px) {
   header.header-three .logo-area {
-    width: 175px;
-    padding: 23px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 0 0 30px 0;
+  }
+}
+@media only screen and (max-width: 436px) {
+  header.header-three .logo-area {
+    width: 90px;
+    padding: 3px;
     border-radius: 0 0 30px 0;
   }
 }
@@ -14289,6 +14296,13 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   margin-bottom: 25px;
   font-weight: 500;
 }
+@media only screen and (max-width:435px) {
+  .banner-three-content span {
+  font-size: 10px;
+  padding: 2px 7px;
+
+}
+}
 .banner-three-content .title {
   font-size: 66px;
   line-height: 1.2;
@@ -14307,7 +14321,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 @media only screen and (max-width: 479px) {
   .banner-three-content .title {
-    font-size: 26px;
+    font-size: 22px;
   }
 }
 
